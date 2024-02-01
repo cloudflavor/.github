@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/cloudflavor.svg" width="100" alt="skycrane">
+  <img src="./assets/cloudflavor.svg" width="100" alt="cloudflavor">
 </div>
 
 <h1 align="center">Cloudflavor</h1>
