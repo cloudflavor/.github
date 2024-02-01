@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/cloudflavor.svg" width="100" alt="cloudflavor">
+  <img src="https://raw.githubusercontent.com/cloudflavor/.github/main/profile/assets/cloudflavor.svg" width="100" alt="cloudflavor">
 </div>
 
 <h1 align="center">Cloudflavor</h1>
