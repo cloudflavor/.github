@@ -1,12 +1,14 @@
-## Hi there 👋
+<div align="center">
+  <img src="assets/cloudflavor.svg" width="100" alt="skycrane">
+</div>
 
-<!--
+<h1 align="center">Cloudflavor</h1>
 
-**Here are some ideas to get you started:**
+<div align="center">
+    <a href="https://cloudflavor.io">Website</a> | <a href="https://cloudflavor.io/solutions">Solutions</a> | <a href="https://cloudflavor.io/docs">Documentation</a> | <a href="https://cloudflavor.io/blog">Blog</a> | <a href="https://cloudflavor.io/community">Community</a> | <a href="https://cloudflavor.io/contact">Contact</a>
+</div>
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+
+<p align="center">
+    Cloudflavor provides automation and tooling for public and private cloud infrastructure.
+</p>
