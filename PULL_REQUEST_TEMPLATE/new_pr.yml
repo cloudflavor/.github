@@ -1,0 +1,73 @@
+name: Pull Request
+description: Create a pull request
+title: "[PR] "
+labels: ["enhancement", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Context
+        Provide context or background about the pull request.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Detailed explanation of the context for the pull request.
+      placeholder: Describe the context here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Description
+        A clear and concise description of what the pull request does.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Detailed description of the changes made in the pull request.
+      placeholder: Describe the changes here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## How to Test
+        Provide instructions on how to test the changes made in this pull request.
+  - type: textarea
+    id: how_to_test
+    attributes:
+      label: How to Test
+      description: Detailed instructions for testing the changes.
+      placeholder: Describe the testing steps here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Related Issues
+        List any related issues or link to the issues this pull request addresses.
+  - type: textarea
+    id: related_issues
+    attributes:
+      label: Related Issues
+      description: List or link any related issues.
+      placeholder: List related issues here...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Checklist
+        Ensure all of these items are completed before submitting the pull request.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: |
+        - [ ] I have read the contributing guidelines.
+        - [ ] I have tested the changes locally.
+        - [ ] I have documented the changes if necessary.
+        - [ ] This PR addresses only one issue.
+    validations:
+      required: true
