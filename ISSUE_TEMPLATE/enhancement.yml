@@ -1,0 +1,44 @@
+name: Enhancement Request
+description: Suggest an enhancement or feature request
+title: "[ENHANCEMENT] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Context
+        Provide context or background about the enhancement.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Detailed explanation of the context for the enhancement.
+      placeholder: Describe the context here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Description
+        A clear and concise description of the enhancement or feature.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Detailed description of the enhancement.
+      placeholder: Describe the enhancement here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Acceptance Criteria
+        Define the criteria that must be met for this enhancement to be considered complete.
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Specific criteria that need to be fulfilled.
+      placeholder: List the acceptance criteria here...
+    validations:
+      required: true
